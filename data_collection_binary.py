@@ -8,8 +8,6 @@ import traceback
 
 
 
-#model = load_model('C:\\Users\\devansh raval\\PycharmProjects\\pythonProject\\cnn9.h5')
-
 capture = cv2.VideoCapture(0)
 
 hd = HandDetector(maxHands=1)
@@ -28,7 +26,7 @@ offset = 30
 step = 1
 flag=False
 suv=0
-#C:\Users\devansh raval\PycharmProjects\pythonProject
+
 white=np.ones((400,400),np.uint8)*255
 cv2.imwrite("I:\\Sign-Language-interpreter\\white.jpg",white)
 
